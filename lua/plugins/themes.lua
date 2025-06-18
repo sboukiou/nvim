@@ -1,13 +1,8 @@
 return {
-	{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
 	{
-		'goolord/alpha-nvim',
-		dependencies = {
-			'echasnovski/mini.icons',
-			'nvim-lua/plenary.nvim'
-		},
-		config = function ()
-			require'alpha'.setup(require'alpha.themes.theta'.config)
-		end
-	};
+		"killitar/obscure.nvim",
+		lazy = false,
+		priority = 1000,
+		opts = {}
+	},
 }

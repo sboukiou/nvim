@@ -1,3 +1,3 @@
 require('lazyvim')
-require('key_mappings')
+require('keymaps')
 require('options')
