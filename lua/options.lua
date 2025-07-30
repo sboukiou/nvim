@@ -1,4 +1,4 @@
-vim.cmd.colorscheme 'obscure'
+vim.cmd.colorscheme 'tokyonight-night'
 --[[ OPTIONS ]]
 
 -- Theme
@@ -7,6 +7,7 @@ vim.cmd.colorscheme 'obscure'
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.grepprg = 'rg'
+vim.opt.swapfile = false
 
 -- For setting relative line numbers 
  vim.opt.rnu = true
