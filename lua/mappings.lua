@@ -1,0 +1,5 @@
+vim.keymap.set('n', '<space>gb', ':Ex<CR>')
+vim.keymap.set('n', '<Tab>', ":bnext<CR>")
+vim.keymap.set('n', '<S-Tab>', ":bprev<CR>")
+vim.keymap.set('n', '<ESC>', ":nohlsearch<CR>")
+vim.keymap.set('n', '<space>m', ":make<CR>")
