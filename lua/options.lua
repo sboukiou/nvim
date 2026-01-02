@@ -5,8 +5,8 @@ vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.cursorline = true
 vim.opt.hlsearch = true
-vim.cmd.colorscheme 'github_dark'
-vim.opt.colorcolumn= "79"
+vim.cmd.colorscheme 'nordic'
+vim.opt.colorcolumn= "88"
 
 vim.cmd([[
 	highlight ColorColumn guibg=lightgrey

@@ -14,15 +14,19 @@ return {
 			require("42header").setup(opts)
 		end,
 	},
-	{
-		"FtVim/norminette-lint.nvim",
-		config = function()
-			require("norminette-lint").setup({
-				enable_on_start = true,  -- Default to false to improve startup performance
-				keybinding = "<leader>Fn", -- Default keybinding, you can define yours
-			})
-		end
-	},
+	-- {
+	-- 	"FtVim/norminette-lint.nvim",
+	-- 	config = function()
+	-- 		require("norminette-lint").setup({
+	-- 			enable_on_start = true,  -- Default to false to improve startup performance
+	-- 			keybinding = "<leader>Fn", -- Default keybinding, you can define yours
+	-- 		})
+	-- 	end
+	-- },
+	--
+	--
+	--[[ Costum plugin under-development ]]--
+	--
 	-- {
 		-- 	dir = '/home/sboukiou/repos/others/norme.nvim',
 		-- 	config = function ()
